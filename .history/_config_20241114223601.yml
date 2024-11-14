@@ -21,8 +21,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Huajian Zeng"
-  avatar           : "images/person.png"
+  name             : "Huajian Zeng (曾华健)"
+  avatar           : "images/android-chrome-512x512.png"
   bio              : "TUM"
   location         : "Munich, Germany"
   employer         :
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : zenghjian # e.g., "github username"
+  github           : # e.g., "github username"
   google_plus      :
   keybase          :
   instagram        :

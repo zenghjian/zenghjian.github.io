@@ -21,13 +21,13 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Huajian Zeng"
-  avatar           : "images/person.png"
+  name             : "Huajian Zeng (曾华健)"
+  avatar           : "images/android-chrome-512x512.png"
   bio              : "TUM"
   location         : "Munich, Germany"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID&user=RN6p8AEAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
   email            : "huajian.zeng@tum.de"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -37,13 +37,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : zenghjian # e.g., "github username"
+  github           : # e.g., "github username"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : huajian-zeng-7282b8214 # e.g., "linkedin username"
+  linkedin         : huajian-zeng # e.g., "linkedin username"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : # e.g., "https://orcid.org/xxxx"
   pinterest        :
