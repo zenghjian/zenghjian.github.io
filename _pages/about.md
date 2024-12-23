@@ -47,11 +47,12 @@ If you are seeking any form of **academic cooperation**, feel free to drop me an
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">3DV 2025</div><img src='images/coe7.png' alt="sym" width="500" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[CoE: Deep Coupled Embedding for Non-Rigid Point Cloud Correspondences](https://drive.google.com/file/d/1b1hHIW_3ysm4O5dWmm0NsfbzdrGdLNWa/view?usp=sharing)
+[CoE: Deep Coupled Embedding for Non-Rigid Point Cloud Correspondences](https://arxiv.org/abs/2412.05557)
 
 **Huajian Zeng**, Maolin Gao, Daniel Cremers
 
-[**Project**](https://github.com/zenghjian/coe)
+[**Website**](https://zenghjian.github.io/coe_page/)
+[**Code**](https://github.com/zenghjian/coe)
 
 
 - a novel deep coupled embedding learning method for dense non-rigid point cloud matching.
@@ -81,7 +82,7 @@ Volodymyr Shcherbyna, Linh Kästner, Diego Diaz, Huu Giang Nguyen, Maximilian Ho
 
 Kaixin Bai, **Huajian Zeng**, Lei Zhang, Yiwen Liu, Hongli Xu, Zhaopeng Chen, Jianwei Zhang
 
-[**Project**](https://sites.google.com/view/cleardepth/) 
+[**Website**](https://sites.google.com/view/cleardepth/) 
 [**Video**](https://www.youtube.com/watch?v=6s5LFnUX7h0)
 
 - Simulation data generation for photorealistic datasets of transparent objects based on Sim2Real.
