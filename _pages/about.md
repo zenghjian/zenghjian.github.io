@@ -24,7 +24,7 @@ I am a master’s student in [Informatics](https://www.cit.tum.de/en/cit/studies
 I am now a research assistant at the [TUM Computer Vision Group](https://cvg.cit.tum.de/), advised by [Maolin Gao](https://maolingao.github.io/) and supervised by [Prof. Daniel Cremers](https://cvg.cit.tum.de/members/cremers). I also collaborate closely with [Kaixin Bai](https://baikaixin-public.github.io/) and [Lei Zhang](https://leizhang-public.github.io/) at the [Agile Robots](https://www.agile-robots.com/en/).
 
 <!-- bachelor -->
-I graduate from [Technical University of Berlin](https://www.tu.berlin/) with a bachelor’s degree in [Computer Engineering](https://www.tu.berlin/en/studying/study-programs/all-programs-offered/study-course/computer-engineering-b-sc), advised by [Dr. Linh Kästner](https://linhdoan.io/) and supervised by [Prof. Jens Lambrecht](https://www.tu.berlin/ignc/team/leitung/prof-dr-ing-jens-lambrecht-mba).
+I graduate from [Technical University of Berlin](https://www.tu.berlin/) with a bachelor's degree in [Computer Engineering](https://www.tu.berlin/en/studying/study-programs/all-programs-offered/study-course/computer-engineering-b-sc), advised by [Dr. Linh Kästner](https://linhdoan.io/) and supervised by [Prof. Jens Lambrecht](https://www.tu.berlin/ignc/team/leitung/prof-dr-ing-jens-lambrecht-mba).
 
 <!-- research interest -->
 My current research focuses on computer vision, shape analysis, and robotic simulation, aiming to bridge the gap between simulation and reality through geometric and learning-based methods.
@@ -34,10 +34,11 @@ If you are seeking any form of **academic cooperation**, feel free to drop me an
 
 
 # 🔥 News
+- *2025.01*: &nbsp;🎉Our paper on Arena-Rosnav 4.0 platform got accepted in [ICRA 2025](https://2025.ieee-icra.org/) in Atlanta, USA.
 - *2024.11*: &nbsp;🎉Our paper on embedding learning for point clouds got accepted in [3DV 2025](https://3dvconf.github.io/2025/) in Singapore.
-- *2024.04*: &nbsp;🎉Our paper on Arena 3.0 platform got accepted in [RSS 2024](https://roboticsconference.org/2024/) in Delft, Netherlands.
+- *2024.04*: &nbsp;🎉Our paper on Arena-Rosnav 3.0 platform got accepted in [RSS 2024](https://roboticsconference.org/2024/) in Delft, Netherlands.
 - *2023.07*: &nbsp;I join Agile Robots <img src='./images/agile.jpg' width="20"> as a compter vision intern in Munich.
-- *2023.06*: &nbsp;🎉Our paper on Arena 2.0 platform got accepted in [IROS 2023](https://ieee-iros.org/) in Detroit, USA.
+- *2023.06*: &nbsp;🎉Our paper on Arena-Rosnav 2.0 platform got accepted in [IROS 2023](https://ieee-iros.org/) in Detroit, USA.
 - *2023.04*: &nbsp;🎉Our paper on 2D DRL-based robot navigation simulator got accepted in [Ubiquitous Robots 2023](http://2023.ubiquitousrobots.org/) in Honolulu, USA.
 - *2022.10*: &nbsp;Move to Munich and started my master's study at TUM.
 # 📝 Publications 
@@ -60,7 +61,7 @@ If you are seeking any form of **academic cooperation**, feel free to drop me an
 </div>
 
 <!-- 5 -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/Arena4.jpg' alt="sym" width="500" height="300"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2025</div><img src='images/Arena4.jpg' alt="sym" width="500" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Arena 4.0: A Comprehensive ROS2 Development and Benchmarking Platform for Human-centric Navigation Using Generative-Model-based Environment Generation](https://arxiv.org/abs/2409.12471)
@@ -75,7 +76,7 @@ Volodymyr Shcherbyna, Linh Kästner, Diego Diaz, Huu Giang Nguyen, Maximilian Ho
 </div>
 
 <!-- 4 -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/clear_depth.jpg' alt="sym" width="500" height="300"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/clear_depth.jpg' alt="sym" width="500" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [ClearDepth: Enhanced Stereo Perception of Transparent Objects for Robotic Manipulation](https://arxiv.org/abs/2409.08926)
