@@ -41,6 +41,7 @@ If you are seeking any form of **academic cooperation**, feel free to drop me an
 - *2023.06*: &nbsp;🎉Our paper on Arena-Rosnav 2.0 platform got accepted in [IROS 2023](https://ieee-iros.org/) in Detroit, USA.
 - *2023.04*: &nbsp;🎉Our paper on 2D DRL-based robot navigation simulator got accepted in [Ubiquitous Robots 2023](http://2023.ubiquitousrobots.org/) in Honolulu, USA.
 - *2022.10*: &nbsp;Move to Munich and started my master's study at TUM.
+
 # 📝 Publications 
 
 <!-- pub with images -->
@@ -52,7 +53,7 @@ If you are seeking any form of **academic cooperation**, feel free to drop me an
 
 **Huajian Zeng**, Maolin Gao, Daniel Cremers
 
-[**Website**](https://zenghjian.github.io/coe_page/)
+[**Project**](https://zenghjian.github.io/coe_page/)
 [**Code**](https://github.com/zenghjian/coe)
 
 
@@ -83,7 +84,7 @@ Volodymyr Shcherbyna, Linh Kästner, Diego Diaz, Huu Giang Nguyen, Maximilian Ho
 
 Kaixin Bai, **Huajian Zeng**, Lei Zhang, Yiwen Liu, Hongli Xu, Zhaopeng Chen, Jianwei Zhang
 
-[**Website**](https://sites.google.com/view/cleardepth/) 
+[**Project**](https://sites.google.com/view/cleardepth/) 
 [**Video**](https://www.youtube.com/watch?v=6s5LFnUX7h0)
 
 - Simulation data generation for photorealistic datasets of transparent objects based on Sim2Real.
