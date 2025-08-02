@@ -17,20 +17,18 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-<!-- master -->
-I am a master’s student in [Informatics](https://www.cit.tum.de/en/cit/studies/degree-programs/master-informatics/) at the [Technical University of Munich](https://www.tum.de/), working on computer vision, graphics and robotics. 
-
-<!-- research assistant -->
-I am now a research assistant at the [TUM Computer Vision Group](https://cvg.cit.tum.de/), advised by [Maolin Gao](https://maolingao.github.io/) and supervised by [Prof. Daniel Cremers](https://cvg.cit.tum.de/members/cremers). I also collaborate closely with [Kaixin Bai](https://baikaixin-public.github.io/) and [Lei Zhang](https://leizhang-public.github.io/) at the [Agile Robots](https://www.agile-robots.com/en/).
-
-<!-- bachelor -->
-I graduate from [Technical University of Berlin](https://www.tu.berlin/) with a bachelor's degree in [Computer Engineering](https://www.tu.berlin/en/studying/study-programs/all-programs-offered/study-course/computer-engineering-b-sc), advised by [Dr. Linh Kästner](https://linhdoan.io/) and supervised by [Prof. Jens Lambrecht](https://www.tu.berlin/ignc/team/leitung/prof-dr-ing-jens-lambrecht-mba).
+<!-- PhD -->
+I am a first year PhD student in Robotics at the [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://www.mbzuai.ac.ae/) with [Prof. Xingxing Zuo](https://xingxingzuo.github.io/), working on Computer Vision and Embodied AI.
 
 <!-- research interest -->
-My current research focuses on computer vision, shape analysis, and robotic simulation, aiming to bridge the gap between simulation and reality through geometric and learning-based methods.
+My current research focuses on computer vision, Robot Manipulation, and Embodied AI, aiming to bridge the gap between simulation and reality through geometric and learning-based methods.
+
+Prior to my move to Abu Dhabi, I obtained my master's degree in [Informatics](https://www.cit.tum.de/en/cit/studies/degree-programs/master-informatics/) at the [Technical University of Munich (TUM)](https://www.tum.de/) and bachelor's degree in [Computer Engineering](https://www.tu.berlin/en/studying/study-programs/all-programs-offered/study-course/computer-engineering-b-sc) at the [Technical University of Berlin (TUB)](https://www.tu.berlin/). 
+
+During my studies, I held two separate research assistant positions at the [TUM Computer Vision Group](https://cvg.cit.tum.de/): One project focused on shape matching, with [Maolin Gao](https://maolingao.github.io/) and [Prof. Daniel Cremers](https://cvg.cit.tum.de/members/cremers). The other project focused on object trajectory generation, with [Abhishek Saroha](https://cvg.cit.tum.de/members/saroha) and [Dr. Xi Wang](https://xiwang1212.github.io/homepage/). I also collaborate closely with [Kaixin Bai](https://baikaixin-public.github.io/) and [Lei Zhang](https://leizhang-public.github.io/) at the [Agile Robots](https://www.agile-robots.com/en/). In addition, I worked extensively with [Dr. Linh Kästner](https://linhdoan.io/) on several projects in social navigation for mobile robots at [TUB](https://www.tu.berlin/) and [NUS](https://www.nus.edu.sg/). 
 
 <!-- looking for cooperator -->
-If you are seeking any form of **academic cooperation**, feel free to drop me an email at [huajian.zeng@tum.de](mailto:huajian.zeng@tum.de).
+If you are seeking any form of **academic cooperation**, feel free to drop me an email at [huajian.zeng@mbzuai.ac.ae](mailto:huajian.zeng@mbzuai.ac.ae).
 
 
 # 🔥 News
@@ -135,12 +133,18 @@ Linh Kästner, Reyk Carstens, **Huajian Zeng**, Jacek Kmiecik, Tuan Anh Le, Teha
 <!-- pub short -->
 <!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
+
+
+# 📖 Educations
+- *2025.08 - 2029.07 (expected)*, PhD, Robotics, Mohamed bin Zayed University of Artificial Intelligence, Abu Dhabi.
+- *2022.09 - 2025.02*, Master, Informatics, Technical University of Munich, Munich.
+- *2019.10 - 2022.09*, Undergraduate, Computer Engineering, Technical University of Berlin, Berlin.
+
 # 🎖 Honors and Awards
 - *2024.10* Deutschestipendium 2024/2025
 
-# 📖 Educations
-- *2022.09 - 2025.03 (expected)*, Master, Informatics, Technical University of Munich, Munich.
-- *2019.10 - 2022.09*, Undergraduate, Computer Engineering, Technical University of Berlin, Berlin.
+# 📚 Academic Services
+- Conference Reviewer: ICRA, IROS
 
 # 💻 Internships
 - *2023.07 - 2024.05*, [Agile Robots](https://www.agile-robots.com/en/), Munich.

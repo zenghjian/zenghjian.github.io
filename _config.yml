@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Huajian Zeng (曾华健)"
-description              : "Master Student at TUM. Focus on Computer Vision and Robotics."
+description              : "PhD Student at MBZUAI. Focus on Computer Vision and Robotics."
 repository               : "zenghjian/zenghjian.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,12 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Huajian Zeng"
   avatar           : "images/profile.png"
-  bio              : "TUM"
-  location         : "Munich, Germany"
+  bio              : "Shape the Future of Robotics."
+  location         : "Abu Dhabi, UAE"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID&user=RN6p8AEAAAAJ"
-  email            : "huajian.zeng@tum.de"
+  email            : "huajian.zeng@mbzuai.ac.ae"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
