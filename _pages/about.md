@@ -32,6 +32,9 @@ If you are seeking any form of **academic cooperation**, feel free to drop me an
 
 
 # 🔥 News
+- *2025.08*: &nbsp;Move to Abu Dhabi and join MBZUAI as a PhD student.
+- *2025.05*: &nbsp;We organized the [Arena 2025 challenge](https://linhdoan.io/arena-challenge/) of [ICRA 2025 workshop Advances in Social Navigation: Planning, HRI and Beyond](https://socialnav2025.pages.dev/).
+
 - *2025.01*: &nbsp;🎉Our paper on Arena-Rosnav 4.0 platform got accepted in [ICRA 2025](https://2025.ieee-icra.org/) in Atlanta, USA.
 - *2024.11*: &nbsp;🎉Our paper on embedding learning for point clouds got accepted in [3DV 2025](https://3dvconf.github.io/2025/) in Singapore.
 - *2024.04*: &nbsp;🎉Our paper on Arena-Rosnav 3.0 platform got accepted in [RSS 2024](https://roboticsconference.org/2024/) in Delft, Netherlands.
