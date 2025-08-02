@@ -40,6 +40,27 @@ If you are seeking any form of **academic cooperation**, feel free to drop me an
 - *2023.06*: &nbsp;🎉Our paper on Arena 2.0 platform got accepted in [IROS 2023](https://ieee-iros.org/) in Detroit, USA.
 - *2023.04*: &nbsp;🎉Our paper on 2D DRL-based robot navigation simulator got accepted in [Ubiquitous Robots 2023](http://2023.ubiquitousrobots.org/) in Honolulu, USA.
 - *2022.10*: Move to Munich and started my master's study at TUM.
+
+<div class="affiliations-section">
+  <div class="affiliations-logos">
+    <a href="https://www.tum.de/" target="_blank">
+      <img src="https://via.placeholder.com/200x80/0070C0/FFFFFF?text=TUM" alt="Technical University of Munich">
+    </a>
+    <a href="https://cvg.cit.tum.de/" target="_blank">
+      <img src="https://via.placeholder.com/200x80/004A86/FFFFFF?text=CVG+TUM" alt="TUM Computer Vision Group">
+    </a>
+    <a href="https://www.agile-robots.com/" target="_blank">
+      <img src="https://via.placeholder.com/200x80/FF6B35/FFFFFF?text=Agile+Robots" alt="Agile Robots">
+    </a>
+    <a href="https://www.tu.berlin/" target="_blank">
+      <img src="https://via.placeholder.com/200x80/C9302C/FFFFFF?text=TU+Berlin" alt="Technical University of Berlin">
+    </a>
+    <a href="https://www.mpg.de/" target="_blank">
+      <img src="https://via.placeholder.com/200x80/006E4E/FFFFFF?text=Max+Planck" alt="Max Planck Institute">
+    </a>
+  </div>
+</div>
+
 # 📝 Publications 
 
 <!-- pub with images -->

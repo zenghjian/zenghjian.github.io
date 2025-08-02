@@ -107,3 +107,51 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+// Affiliations section
+.affiliations-section {
+    margin: 3em 0 4em 0;
+    
+    .affiliations-logos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2.5em;
+        margin-top: 2em;
+        
+        a {
+            text-decoration: none;
+            transition: transform 0.3s ease;
+            
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+        
+        img {
+            height: 60px;
+            width: auto;
+            max-width: 200px;
+            object-fit: contain;
+            filter: grayscale(0%);
+            transition: filter 0.3s ease;
+            
+            &:hover {
+                filter: grayscale(0%) brightness(1.1);
+            }
+        }
+    }
+    
+    // Responsive design for smaller screens
+    @include breakpoint($small) {
+        .affiliations-logos {
+            gap: 1.5em;
+            
+            img {
+                height: 50px;
+                max-width: 150px;
+            }
+        }
+    }
+}
