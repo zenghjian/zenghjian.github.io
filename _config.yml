@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Huajian Zeng (曾华健)"
-description              : "PhD Student at MBZUAI. Focus on Computer Vision and Embodied AI."
+description              : 
 repository               : "zenghjian/zenghjian.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Huajian Zeng"
   avatar           : "images/profile.png"
-  bio              : "Shape the Future of Robotics."
+  bio              : " "
   location         : "Abu Dhabi, UAE"
   employer         :
   pubmed           : 

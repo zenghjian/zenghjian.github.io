@@ -34,16 +34,100 @@ My research interests focus on 3D computer vision and human/hand-object interact
 
 
 # 🔥 News
-- *2025.08*: &nbsp;Move to Abu Dhabi and join MBZUAI as a PhD student.
-- *2025.05*: &nbsp;We organized the [Arena 2025 challenge](https://linhdoan.io/arena-challenge/) of [ICRA 2025 workshop Advances in Social Navigation: Planning, HRI and Beyond](https://socialnav2025.pages.dev/).
+<div id="news-container">
+<ul>
+<li><em>2025.08</em>: &nbsp;Move to Abu Dhabi and join MBZUAI as a PhD student.</li>
+<li><em>2025.05</em>: &nbsp;We organized the <a href="https://linhdoan.io/arena-challenge/">Arena 2025 challenge</a> of <a href="https://socialnav2025.pages.dev/">ICRA 2025 workshop Advances in Social Navigation: Planning, HRI and Beyond</a>.</li>
+<li><em>2025.01</em>: &nbsp;🎉 Our paper on Arena-Rosnav 4.0 platform got accepted in <a href="https://2025.ieee-icra.org/">ICRA 2025</a> in Atlanta, USA.</li>
+<li><em>2024.11</em>: &nbsp;🎉 Our paper on embedding learning for point clouds got accepted in <a href="https://3dvconf.github.io/2025/">3DV 2025</a> in Singapore.</li>
+<li class="hidden-news"><em>2024.04</em>: &nbsp;🎉 Our paper on Arena-Rosnav 3.0 platform got accepted in <a href="https://roboticsconference.org/2024/">RSS 2024</a> in Delft, Netherlands.</li>
+<li class="hidden-news"><em>2023.07</em>: &nbsp;I join Agile Robots <img src='./images/agile.jpg' width="20"> as a compter vision intern in Munich.</li>
+<li class="hidden-news"><em>2023.06</em>: &nbsp;🎉 Our paper on Arena-Rosnav 2.0 platform got accepted in <a href="https://ieee-iros.org/">IROS 2023</a> in Detroit, USA.</li>
+<li class="hidden-news"><em>2023.04</em>: &nbsp;🎉 Our paper on 2D DRL-based robot navigation simulator got accepted in <a href="http://2023.ubiquitousrobots.org/">Ubiquitous Robots 2023</a> in Honolulu, USA.</li>
+<li class="hidden-news"><em>2022.10</em>: &nbsp;Move to Munich and started my master's study at TUM.</li>
+</ul>
+<span id="news-toggle" onclick="toggleNews()">Show more</span>
+</div>
 
-- *2025.01*: &nbsp;🎉Our paper on Arena-Rosnav 4.0 platform got accepted in [ICRA 2025](https://2025.ieee-icra.org/) in Atlanta, USA.
-- *2024.11*: &nbsp;🎉Our paper on embedding learning for point clouds got accepted in [3DV 2025](https://3dvconf.github.io/2025/) in Singapore.
-- *2024.04*: &nbsp;🎉Our paper on Arena-Rosnav 3.0 platform got accepted in [RSS 2024](https://roboticsconference.org/2024/) in Delft, Netherlands.
-- *2023.07*: &nbsp;I join Agile Robots <img src='./images/agile.jpg' width="20"> as a compter vision intern in Munich.
-- *2023.06*: &nbsp;🎉Our paper on Arena-Rosnav 2.0 platform got accepted in [IROS 2023](https://ieee-iros.org/) in Detroit, USA.
-- *2023.04*: &nbsp;🎉Our paper on 2D DRL-based robot navigation simulator got accepted in [Ubiquitous Robots 2023](http://2023.ubiquitousrobots.org/) in Honolulu, USA.
-- *2022.10*: &nbsp;Move to Munich and started my master's study at TUM.
+<style>
+#news-container .hidden-news {
+  display: none;
+}
+#news-container.expanded .hidden-news {
+  display: list-item;
+}
+#news-toggle {
+  color: #224b8d;
+  cursor: pointer;
+}
+#news-toggle:hover {
+  text-decoration: underline;
+}
+.abstract-toggle, .bibtex-toggle {
+  color: #224b8d;
+  cursor: pointer;
+}
+.abstract-toggle:hover, .bibtex-toggle:hover {
+  text-decoration: underline;
+}
+.abstract-content, .bibtex-content {
+  display: none;
+  position: absolute;
+  z-index: 100;
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-left: 3px solid #224b8d;
+  font-size: 0.9em;
+  max-width: 600px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.15);
+}
+.bibtex-content {
+  font-family: monospace;
+  white-space: pre-wrap;
+}
+.abstract-content.show, .bibtex-content.show {
+  display: block;
+}
+.paper-box-text {
+  position: relative;
+}
+.paper-box-text a {
+  text-decoration: none;
+}
+.paper-box-text a:hover {
+  text-decoration: underline;
+}
+</style>
+
+<script>
+function toggleNews() {
+  var container = document.getElementById('news-container');
+  var toggle = document.getElementById('news-toggle');
+  if (container.classList.contains('expanded')) {
+    container.classList.remove('expanded');
+    toggle.textContent = 'Show more';
+  } else {
+    container.classList.add('expanded');
+    toggle.textContent = 'Show less';
+  }
+}
+
+function toggleAbstract(element) {
+  var content = element.parentElement.querySelector('.abstract-content');
+  if (content) {
+    content.classList.toggle('show');
+  }
+}
+
+function toggleBibtex(element) {
+  var content = element.parentElement.querySelector('.bibtex-content');
+  if (content) {
+    content.classList.toggle('show');
+  }
+}
+</script>
 
 # 📝 Publications 
 
@@ -52,15 +136,18 @@ My research interests focus on 3D computer vision and human/hand-object interact
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">3DV 2025</div><img src='images/coe7.png' alt="sym" width="500" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[CoE: Deep Coupled Embedding for Non-Rigid Point Cloud Correspondences](https://arxiv.org/abs/2412.05557)
+[**CoE: Deep Coupled Embedding for Non-Rigid Point Cloud Correspondences**](https://arxiv.org/abs/2412.05557)
 
-**Huajian Zeng**, Maolin Gao, Daniel Cremers
+**Huajian Zeng\***, Maolin Gao\*, Daniel Cremers
 
-[**Project**](https://zenghjian.github.io/coe_page/)
-[**Code**](https://github.com/zenghjian/coe)
+[[webpage]](https://zenghjian.github.io/coe_page/)
+[[pdf]](https://arxiv.org/pdf/2412.05557)
+<span class="abstract-toggle" onclick="toggleAbstract(this)">[abstract]</span>
+<span class="bibtex-toggle" onclick="toggleBibtex(this)">[bibtex]</span>
+[[code]](https://github.com/zenghjian/coe)
+<span class="abstract-content">The interest in matching non-rigidly deformed shapes represented as raw point clouds is rising due to the proliferation of low-cost 3D sensors. Yet, the task is challenging since point clouds are irregular and there is a lack of intrinsic shape information. We propose to tackle these challenges by learning a new shape representation - a per-point high dimensional embedding, in an embedding space where semantically similar points share similar embeddings. The learned embedding has multiple beneficial properties: it is aware of the underlying shape geometry and is robust to shape deformations and various shape artefacts, such as noise and partiality. Consequently, this embedding can be directly employed to retrieve high-quality dense correspondences through a simple nearest neighbor search in the embedding space. Extensive experiments demonstrate new state-of-the-art results and robustness in numerous challenging non-rigid shape matching benchmarks and show its great potential in other shape analysis tasks, such as segmentation.</span>
+<span class="bibtex-content">@inproceedings{zeng2025coe,<br>  title={CoE: Deep Coupled Embedding for Non-Rigid Point Cloud Correspondences},<br>  author={Zeng, Huajian and Gao, Maolin and Cremers, Daniel},<br>  booktitle={2025 International Conference on 3D Vision (3DV)},<br>  pages={286--295},<br>  year={2025},<br>  organization={IEEE}<br>}</span>
 
-
-- a novel deep coupled embedding learning method for dense non-rigid point cloud matching.
 </div>
 </div>
 
@@ -68,14 +155,17 @@ My research interests focus on 3D computer vision and human/hand-object interact
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2025</div><img src='images/Arena4.jpg' alt="sym" width="500" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Arena 4.0: A Comprehensive ROS2 Development and Benchmarking Platform for Human-centric Navigation Using Generative-Model-based Environment Generation](https://arxiv.org/abs/2409.12471)
+[**Arena 4.0: A Comprehensive ROS2 Development and Benchmarking Platform for Human-centric Navigation Using Generative-Model-based Environment Generation**](https://arxiv.org/abs/2409.12471)
 
 Volodymyr Shcherbyna, Linh Kästner, Diego Diaz, Huu Giang Nguyen, Maximilian Ho-Kyoung Schreff, Tim Seeger, Jonas Kreutz, Ahmed Martban, **Huajian Zeng**, Harold Soh
 
-[**Project**](https://github.com/Arena-Rosnav)
+[[webpage]](https://github.com/Arena-Rosnav)
+[[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11127635)
+<span class="abstract-toggle" onclick="toggleAbstract(this)">[abstract]</span>
+<span class="bibtex-toggle" onclick="toggleBibtex(this)">[bibtex]</span>
+<span class="abstract-content">Building upon the foundations laid by our previous work, this paper introduces Arena 4.0, a significant advancement of Arena 3.0, Arena-Bench, Arena 1.0, and Arena 2.0. Arena 4.0 provides three main novel contributions: 1) a generative-model-based world and scenario generation approach using large language models (LLMs) and diffusion models, to dynamically generate complex, human-centric environments from text prompts or 2D floorplans that can be used for development and benchmarking of social navigation strategies. 2) A comprehensive 3D model database which can be extended with 3D assets and semantically linked and annotated using a variety of metrics for dynamic spawning and arrangements inside 3D worlds. 3) The complete migration towards ROS 2, which ensures operation with state-of-the-art hardware and functionalities for improved navigation, usability, and simplified transfer towards real robots. We evaluated the platforms performance through a comprehensive user study and its world generation capabilities for benchmarking demonstrating significant improvements in usability and efficiency compared to previous versions. Arena 4.0 is openly available at https://github.com/Arena-Rosnav.</span>
+<span class="bibtex-content">@inproceedings{shcherbyna2025arena,<br>  title={Arena 4.0: A comprehensive ros2 development and benchmarking platform for human-centric navigation using generative-model-based environment generation},<br>  author={Shcherbyna, Volodymyr and Kastner, Linh and Diaz, Diego and Nguyen, Huu Giang and Schreff, Maximilian Ho--Kyoung and Seeger, Tim and Kreutz, Jonas and Martban, Ahmed and Shen, Zhengcheng and Zeng, Huajian and others},<br>  booktitle={2025 IEEE International Conference on Robotics and Automation (ICRA)},<br>  pages={9138--9144},<br>  year={2025},<br>  organization={IEEE}<br>}</span>
 
-
-- A platform, integrating generative-model-based dynamic world generation, a semantically linked 3D model database, and extended human behavior simulation.
 </div>
 </div>
 
@@ -83,15 +173,17 @@ Volodymyr Shcherbyna, Linh Kästner, Diego Diaz, Huu Giang Nguyen, Maximilian Ho
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/clear_depth.jpg' alt="sym" width="500" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[ClearDepth: Enhanced Stereo Perception of Transparent Objects for Robotic Manipulation](https://arxiv.org/abs/2409.08926)
+[**ClearDepth: Enhanced Stereo Perception of Transparent Objects for Robotic Manipulation**](https://arxiv.org/abs/2409.08926)
 
 Kaixin Bai, **Huajian Zeng**, Lei Zhang, Yiwen Liu, Hongli Xu, Zhaopeng Chen, Jianwei Zhang
 
-[**Project**](https://sites.google.com/view/cleardepth/) 
-[**Video**](https://www.youtube.com/watch?v=6s5LFnUX7h0)
-
-- Simulation data generation for photorealistic datasets of transparent objects based on Sim2Real.
-- Stereo imaging algorithm for scene reconstruction of transparent objects using a novel cascaded ViT model
+[[webpage]](https://sites.google.com/view/cleardepth/)
+[[pdf]](https://arxiv.org/pdf/2409.08926)
+<span class="abstract-toggle" onclick="toggleAbstract(this)">[abstract]</span>
+<span class="bibtex-toggle" onclick="toggleBibtex(this)">[bibtex]</span>
+[[video]](https://www.youtube.com/watch?v=6s5LFnUX7h0)
+<span class="abstract-content">Transparent object depth perception poses a challenge in everyday life and logistics, primarily due to the inability of standard 3D sensors to accurately capture depth on transparent or reflective surfaces. This limitation significantly affects depth map and point cloud-reliant applications, especially in robotic manipulation. We developed a vision transformer-based algorithm for stereo depth recovery of transparent objects. This approach is complemented by an innovative feature post-fusion module, which enhances the accuracy of depth recovery by structural features in images. To address the high costs associated with dataset collection for stereo camera-based perception of transparent objects, our method incorporates a parameter-aligned, domain-adaptive, and physically realistic Sim2Real simulation for efficient data generation, accelerated by AI algorithm. Our experimental results demonstrate the model's exceptional Sim2Real generalizability in real-world scenarios, enabling precise depth mapping of transparent objects to assist in robotic manipulation.</span>
+<span class="bibtex-content">@article{bai2024cleardepth,<br>  title={ClearDepth: enhanced stereo perception of transparent objects for robotic manipulation},<br>  author={Bai, Kaixin and Zeng, Huajian and Zhang, Lei and Liu, Yiwen and Xu, Hongli and Chen, Zhaopeng and Zhang, Jianwei},<br>  journal={arXiv preprint arXiv:2409.08926},<br>  year={2024}<br>}</span>
 </div>
 </div>
 
@@ -99,13 +191,17 @@ Kaixin Bai, **Huajian Zeng**, Lei Zhang, Yiwen Liu, Hongli Xu, Zhaopeng Chen, Ji
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">RSS 2024</div><img src='images/Arena 3.jpg' alt="sym" width="500" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Arena 3.0: Advancing Social Navigation in Collaborative and Highly Dynamic Environments](https://arxiv.org/abs/2406.00837)
+[**Arena 3.0: Advancing Social Navigation in Collaborative and Highly Dynamic Environments**](https://arxiv.org/abs/2406.00837)
 
 Linh Kästner, Reyk Carstens, **Huajian Zeng**, Jacek Kmiecik, Tuan Anh Le, Teham Bhuiyan, Boris Meinardus, Jens Lambrecht
 
-[**Project**](https://github.com/Arena-Rosnav)
+[[webpage]](https://github.com/Arena-Rosnav)
+[[pdf]](https://roboticsproceedings.org/rss20/p074.pdf)
+<span class="abstract-toggle" onclick="toggleAbstract(this)">[abstract]</span>
+<span class="bibtex-toggle" onclick="toggleBibtex(this)">[bibtex]</span>
+<span class="abstract-content">Building upon our previous contributions, this paper introduces Arena 3.0, an extension of Arena-Bench, Arena 1.0, and Arena 2.0. Arena 3.0 is a comprehensive software stack containing multiple modules and simulation environments focusing on the development, simulation, and benchmarking of social navigation approaches in collaborative environments. We significantly enhance the realism of human behavior simulation by incorporating a diverse array of new social force models and interaction patterns, encompassing both human-human and human-robot dynamics. The platform provides a comprehensive set of new task modes, designed for extensive benchmarking and testing and is capable of generating realistic and human-centric environments dynamically, catering to a broad spectrum of social navigation scenarios. In addition, the platform's functionalities have been abstracted across three widely used simulators, each tailored for specific training and testing purposes. The platform's efficacy has been validated through an extensive benchmark and user evaluations of the platform by a global community of researchers and students, which noted the substantial improvement compared to previous versions and expressed interests to utilize the platform for future research and development.</span>
+<span class="bibtex-content">@article{kastner2024arena,<br>  title={Arena 3.0: Advancing social navigation in collaborative and highly dynamic environments},<br>  author={Kästner, Linh and Shcherbyna, Volodymyir and Zeng, Huajian and Le, Tuan Anh and Schreff, Maximilian Ho-Kyoung and Osmaev, Halid and Tran, Nam Truong and Diaz, Diego and Golebiowski, Jan and Soh, Harold and others},<br>  journal={arXiv preprint arXiv:2406.00837},<br>  year={2024}<br>}</span>
 
-- A modular platform focused on human behavior modeling realism by integrating diverse social force models, task generation tools, and cross-simulator functionality abstraction.
 </div>
 </div>
 
@@ -113,13 +209,17 @@ Linh Kästner, Reyk Carstens, **Huajian Zeng**, Jacek Kmiecik, Tuan Anh Le, Teha
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IROS 2023</div><img src='images/Arena-Rosnav 2.jpg' alt="sym" width="500" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Arena-Rosnav 2.0: A Development and Benchmarking Platform for Robot Navigation in Highly Dynamic Environments](https://arxiv.org/abs/2302.10023)
+[**Arena-Rosnav 2.0: A Development and Benchmarking Platform for Robot Navigation in Highly Dynamic Environments**](https://arxiv.org/abs/2302.10023)
 
 Linh Kästner, Reyk Carstens, **Huajian Zeng**, Jacek Kmiecik, Tuan Anh Le, Teham Bhuiyan, Boris Meinardus, Jens Lambrecht
 
-[**Project**](https://github.com/Arena-Rosnav)
+[[webpage]](https://github.com/Arena-Rosnav)
+[[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10342152)
+<span class="abstract-toggle" onclick="toggleAbstract(this)">[abstract]</span>
+<span class="bibtex-toggle" onclick="toggleBibtex(this)">[bibtex]</span>
+<span class="abstract-content">Following up on our previous works, in this paper, we present Arena-Rosnav 2.0 an extension to our previous works Arena-Bench and Arena-Rosnav, which adds a variety of additional modules for developing and benchmarking robotic navigation approaches. The platform is fundamentally restructured and provides unified APIs to add additional functionalities such as planning algorithms, simulators, or evaluation functionalities. We have included more realistic simulation and pedestrian behavior and provide a profound documentation to lower the entry barrier. We evaluated our system by first, conducting a user study in which we asked experienced researchers as well as new practitioners and students to test our system. The feedback was mostly positive and a high number of participants are utilizing our system for other research endeavors. Finally, we demonstrate the feasibility of our system by integrating two new simulators and a variety of state of the art navigation approaches and benchmark them against one another.</span>
+<span class="bibtex-content">@inproceedings{kastner2023arena,<br>  title={Arena-rosnav 2.0: A development and benchmarking platform for robot navigation in highly dynamic environments},<br>  author={Kästner, Linh and Carstens, Reyk and Zeng, Huajian and Kmiecik, Jacek and Bhuiyan, Teham and Khorsandhi, Niloufar and Shcherbyna, Volodymyir and Lambrecht, Jens},<br>  booktitle={2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},<br>  pages={11257--11264},<br>  year={2023},<br>  organization={IEEE}<br>}</span>
 
-- A platform for developing and benchmarking robot navigation in highly dynamic environments.
 </div>
 </div>
 
@@ -128,11 +228,17 @@ Linh Kästner, Reyk Carstens, **Huajian Zeng**, Jacek Kmiecik, Tuan Anh Le, Teha
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Ubiquitous Robots 2023</div><img src='images/ur.jpg' alt="sym" width="500" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Efficient 2D Simulators for Deep-Reinforcement-Learning-based Training of Navigation Approaches](https://ieeexplore.ieee.org/abstract/document/10202268)
+[**Efficient 2D Simulators for Deep-Reinforcement-Learning-based Training of Navigation Approaches**](https://ieeexplore.ieee.org/abstract/document/10202268)
 
 **Huajian Zeng**, Linh Kästner, Jens Lambrecht
 
-- Efficient 2D simulator for deep reinforcement learning (DRL)-based autonomous agent.
+[[webpage]](https://github.com/Arena-Rosnav)
+[[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10202268)
+<span class="abstract-toggle" onclick="toggleAbstract(this)">[abstract]</span>
+<span class="bibtex-toggle" onclick="toggleBibtex(this)">[bibtex]</span>
+<span class="abstract-content">In recent years, Deep Reinforcement Learning (DRL) has emerged as a competitive approach for mobile robot navigation. However, training DRL agents often comes at the cost of difficult and tedious training procedures in which powerful hardware is required to conduct oftentimes long training runs. Especially, for complex environments, this proves to be a major bottleneck for widespread adoption of DRL approaches into industries. In this paper we integrate an efficient 2D simulator into the Arena-Rosnav framework of our previous work as an alternative simulation platform to train and develop DRL agents. Therefore, we utilized the provided API to integrate necessary components into the ecosystem of Arena-Rosnav. We evaluated our simulator by training a DRL agent within that platform and compared the training and navigational performance against the baseline 2D simulator Flatland, which is the default simulating platform of Arena-Rosnav. Results demonstrate that using our Arena2D simulator results in substantially faster training times and in some scenarios better agents. This proves to be an important step towards resource-efficient DRL training, which accelerates training times and improve the development cycle of DRL agents for navigation tasks.</span>
+<span class="bibtex-content">@inproceedings{zeng2023efficient,<br>  title={Efficient 2D Simulators for Deep-Reinforcement-Learning-based Training of Navigation Approaches},<br>  author={Zeng, Huajian and Kästner, Linh and Lambrecht, Jens},<br>  booktitle={2023 20th International Conference on Ubiquitous Robots (UR)},<br>  pages={275--280},<br>  year={2023},<br>  organization={IEEE}<br>}</span>
+
 </div>
 </div>
 <!-- pub short -->
