@@ -18,17 +18,19 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 <!-- PhD -->
-I am a first year PhD student in Robotics at the [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://www.mbzuai.ac.ae/) with [Prof. Xingxing Zuo](https://xingxingzuo.github.io/), working on Computer Vision and Embodied AI.
+I am a first year PhD student in Robotics at the [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://www.mbzuai.ac.ae/) with [Prof. Xingxing Zuo](https://xingxingzuo.github.io/). Before that I obtained my master's degree in [Informatics](https://www.cit.tum.de/en/cit/studies/degree-programs/master-informatics/) at the [Technical University of Munich (TUM)](https://www.tum.de/) and bachelor's degree in [Computer Engineering](https://www.tu.berlin/en/studying/study-programs/all-programs-offered/study-course/computer-engineering-b-sc) at the [Technical University of Berlin (TUB)](https://www.tu.berlin/). 
 
-<!-- research interest -->
-My current research focuses on computer vision, Robot Manipulation, and Embodied AI, aiming to bridge the gap between simulation and reality through geometric and learning-based methods.
+During my studies, I was student research assistant at the [TUM Computer Vision Group](https://cvg.cit.tum.de/), working with [Prof. Daniel Cremers](https://cvg.cit.tum.de/members/cremers) and [Dr. Xi Wang](https://xiwang1212.github.io/homepage/). I also collaborate closely with [Kaixin Bai](https://baikaixin-public.github.io/) and [Lei Zhang](https://leizhang-public.github.io/) at the [Agile Robots](https://www.agile-robots.com/en/). In addition, I worked extensively with [Dr. Linh Kästner](https://linhdoan.io/) on several projects in social navigation for mobile robots at [TUB](https://www.tu.berlin/) and [NUS](https://www.nus.edu.sg/).
 
-Prior to my move to Abu Dhabi, I obtained my master's degree in [Informatics](https://www.cit.tum.de/en/cit/studies/degree-programs/master-informatics/) at the [Technical University of Munich (TUM)](https://www.tum.de/) and bachelor's degree in [Computer Engineering](https://www.tu.berlin/en/studying/study-programs/all-programs-offered/study-course/computer-engineering-b-sc) at the [Technical University of Berlin (TUB)](https://www.tu.berlin/). 
+<!-- research interest: 从视频中学习复杂的机器人操作 -->
+My research interests focus on 3D computer vision and human/hand-object interaction, aiming to teach robots to better perceive and understand the 3D world for complex manipulation tasks.
 
-During my studies, I held two separate research assistant positions at the [TUM Computer Vision Group](https://cvg.cit.tum.de/): One project focused on shape matching, with [Maolin Gao](https://maolingao.github.io/) and [Prof. Daniel Cremers](https://cvg.cit.tum.de/members/cremers). The other project focused on object trajectory generation, with [Abhishek Saroha](https://cvg.cit.tum.de/members/saroha) and [Dr. Xi Wang](https://xiwang1212.github.io/homepage/). I also collaborate closely with [Kaixin Bai](https://baikaixin-public.github.io/) and [Lei Zhang](https://leizhang-public.github.io/) at the [Agile Robots](https://www.agile-robots.com/en/). In addition, I worked extensively with [Dr. Linh Kästner](https://linhdoan.io/) on several projects in social navigation for mobile robots at [TUB](https://www.tu.berlin/) and [NUS](https://www.nus.edu.sg/). 
+
+
+ <!-- One project focused on shape matching, with [Maolin Gao](https://maolingao.github.io/) and . The other project focused on object trajectory generation, with [Abhishek Saroha](https://cvg.cit.tum.de/members/saroha) and . I also collaborate closely with [Kaixin Bai](https://baikaixin-public.github.io/) and [Lei Zhang](https://leizhang-public.github.io/) at the [Agile Robots](https://www.agile-robots.com/en/). In addition, I worked extensively with [Dr. Linh Kästner](https://linhdoan.io/) on several projects in social navigation for mobile robots at [TUB](https://www.tu.berlin/) and [NUS](https://www.nus.edu.sg/).  -->
 
 <!-- looking for cooperator -->
-If you are seeking any form of **academic cooperation**, feel free to drop me an email at [huajian.zeng@mbzuai.ac.ae](mailto:huajian.zeng@mbzuai.ac.ae).
+<!-- If you are seeking any form of **academic cooperation**, feel free to drop me an email at [huajian.zeng@mbzuai.ac.ae](mailto:huajian.zeng@mbzuai.ac.ae). -->
 
 
 # 🔥 News
