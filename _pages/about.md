@@ -179,7 +179,7 @@ Volodymyr Shcherbyna\*, Linh Kästner\*, Duc Anh Do, Hoang Tung, Huu Giang Nguye
 
 **Huajian Zeng\***, Maolin Gao\*, Daniel Cremers
 
-[[webpage]](https://huajian-zeng.github.io/coe_page/)
+[[webpage]](https://huajian-zeng.github.io/projects/coe)
 [[pdf]](https://arxiv.org/pdf/2412.05557)
 <span class="abstract-toggle" onclick="toggleAbstract(this)">[abstract]</span>
 <span class="bibtex-toggle" onclick="toggleBibtex(this)">[bibtex]</span>
