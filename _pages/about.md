@@ -179,11 +179,11 @@ Volodymyr Shcherbyna\*, Linh Kästner\*, Duc Anh Do, Hoang Tung, Huu Giang Nguye
 
 **Huajian Zeng\***, Maolin Gao\*, Daniel Cremers
 
-[[webpage]](https://zenghjian.github.io/coe_page/)
+[[webpage]](https://huajian-zeng.github.io/coe_page/)
 [[pdf]](https://arxiv.org/pdf/2412.05557)
 <span class="abstract-toggle" onclick="toggleAbstract(this)">[abstract]</span>
 <span class="bibtex-toggle" onclick="toggleBibtex(this)">[bibtex]</span>
-[[code]](https://github.com/zenghjian/coe)
+[[code]](https://github.com/huajian-zeng/coe)
 <span class="abstract-content">The interest in matching non-rigidly deformed shapes represented as raw point clouds is rising due to the proliferation of low-cost 3D sensors. Yet, the task is challenging since point clouds are irregular and there is a lack of intrinsic shape information. We propose to tackle these challenges by learning a new shape representation - a per-point high dimensional embedding, in an embedding space where semantically similar points share similar embeddings. The learned embedding has multiple beneficial properties: it is aware of the underlying shape geometry and is robust to shape deformations and various shape artefacts, such as noise and partiality. Consequently, this embedding can be directly employed to retrieve high-quality dense correspondences through a simple nearest neighbor search in the embedding space. Extensive experiments demonstrate new state-of-the-art results and robustness in numerous challenging non-rigid shape matching benchmarks and show its great potential in other shape analysis tasks, such as segmentation.</span>
 <span class="bibtex-content">@inproceedings{zeng2025coe,<br>  title={CoE: Deep Coupled Embedding for Non-Rigid Point Cloud Correspondences},<br>  author={Zeng, Huajian and Gao, Maolin and Cremers, Daniel},<br>  booktitle={2025 International Conference on 3D Vision (3DV)},<br>  pages={286--295},<br>  year={2025},<br>  organization={IEEE}<br>}</span>
 
